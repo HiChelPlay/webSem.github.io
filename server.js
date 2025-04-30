@@ -6,7 +6,7 @@ const axios = require('axios');
 const app = express();
 require('dotenv').config();
 
-const DEEPSEEK_API_KEY = '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'
+const DEEPSEEK_API_KEY = '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'
 
 // Middleware
 app.use(express.static(path.join(__dirname, '/public')));
